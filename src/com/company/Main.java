@@ -1,13 +1,10 @@
 package com.company;
 
 import other.InterfaceClass;
-import other.SubClass;//Import class from other packages.
+import other.SubClass;
 
 import java.util.*;
 import java.util.function.Function;
-
-import static com.company.Constants.*;
-
 
 /**
  * Prepare for JAVA SE 8 Gold test
