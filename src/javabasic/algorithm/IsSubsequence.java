@@ -1,4 +1,4 @@
-package com.company;
+package javabasic.algorithm;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -8,7 +8,13 @@ import java.util.List;
  * 来源：力扣（LeetCode）
  * 链接：https://leetcode-cn.com/problems/is-subsequence
  */
-public class Algorithm {
+public class IsSubsequence {
+
+    public static void main(String[] args){
+        boolean result = IsSubsequence.isSubsequence(s_392, t_392);
+        System.out.println("执行结果是：" + result);
+        System.out.println("期待结果是：true");
+    }
 
     /*#392 Validate subsequence*/
     public static final String s_392 = "l";

@@ -1,4 +1,4 @@
-package other;
+package javabasic.syntax.other;
 
 public abstract class AbstractClass {
 

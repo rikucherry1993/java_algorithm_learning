@@ -1,4 +1,4 @@
-package com.company;
+package javabasic.syntax.main;
 
 public class Item {
     public String name;

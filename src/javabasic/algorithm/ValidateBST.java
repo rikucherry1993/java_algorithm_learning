@@ -1,4 +1,4 @@
-package basic.java;
+package javabasic.algorithm;
 
 import java.util.Random;
 

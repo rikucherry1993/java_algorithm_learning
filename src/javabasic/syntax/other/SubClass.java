@@ -1,4 +1,4 @@
-package other;
+package javabasic.syntax.other;
 
 public class SubClass extends AbstractClass implements InterfaceClass, InterfaceForDefault{
 

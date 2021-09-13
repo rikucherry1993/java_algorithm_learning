@@ -1,7 +1,7 @@
-package com.company;
+package javabasic.syntax.main;
 
-import other.InterfaceClass;
-import other.SubClass;
+import javabasic.syntax.other.InterfaceClass;
+import javabasic.syntax.other.SubClass;
 
 import java.util.*;
 import java.util.function.Function;
@@ -20,8 +20,6 @@ public class Main {
         /*------ Basics ----------*/
         INSTANCE_ASSIGNMENT,FALL_THROUGH,CALL_METHOD_FROM_OTHER_PACKAGE,
         FUNCTIONAL_INTERFACE,DATA_STRUCTURE_COLLECTION,
-        /*-----Algorithm --------*/
-        TEST_392
     }
 
 
@@ -29,7 +27,7 @@ public class Main {
     public static void main(String[] args) {
 
         /*-------- Set identifier to decide witch method to go ---------- */
-        Identifier id = Identifier.TEST_392;
+        Identifier id = Identifier.INSTANCE_ASSIGNMENT;
 
         switch (id) {
             case INSTANCE_ASSIGNMENT :
@@ -47,8 +45,6 @@ public class Main {
             case DATA_STRUCTURE_COLLECTION:
                 operateCollection();
                 break;
-            case TEST_392:
-                execute_392();
             default:
                 break;
         }
@@ -180,16 +176,6 @@ public class Main {
         System.out.println("peek(): " + deque.peek());//2
         deque.pop();
         System.out.println(deque);
-    }
-
-
-    /**
-     * #392
-     */
-    private static void execute_392(){
-        boolean result = Algorithm.isSubsequence(Algorithm.s_392,Algorithm.t_392);
-        System.out.println("执行结果是：" + result);
-        System.out.println("期待结果是：true");
     }
 
 }

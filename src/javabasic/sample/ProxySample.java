@@ -1,4 +1,4 @@
-package basic.java;
+package javabasic.sample;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
@@ -9,7 +9,7 @@ import java.util.Random;
 /**
  * Java核心技术 p.276 代理类
  */
-public class ProxyTest {
+public class ProxySample {
     public static void main(String[] args) {
         var elements = new Object[1000];
 
